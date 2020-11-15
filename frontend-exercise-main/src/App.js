@@ -1,15 +1,17 @@
 import './App.css';
 import Header from './Header/Header';
-import Posts from './Posts/Posts';
+import PostList from './PostList/PostList';
+
+
+// developing project without using React Hooks. 
+// Can be easily adjusted if necessary. Possibly may do a resubmission tonight using hooks.
 
 function App() {
   return (
     <div className="root">
       <header>
         <Header />
-        <h2>two chairs frontend exercise</h2>
-        <p>Please replace this with your solution!</p>
-        <Posts />
+        <PostList />
       </header>
     </div>
   );

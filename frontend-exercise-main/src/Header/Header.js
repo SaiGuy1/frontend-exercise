@@ -8,9 +8,9 @@ import './Header.css';
 class Header extends Component {
     render() {
         return(
-             <header id="blog-header">
-                Talk Therapy Blog
-             </header>
+            <div class="blog-header">
+                <h2 class="blog-title">Talk Therapy Blog</h2>
+            </div>
         )
     }
 }

@@ -1,5 +1,12 @@
 .root {
-  width: 100vw;
-  height: 100vh;
-  padding: 16px;
+  background: #F5F3EB;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.rst-copyright img {
+  max-width: 100%;
+  height: auto;
 }
